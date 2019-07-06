@@ -1,0 +1,40 @@
+*{border:0;margin:0;}
+
+body{background:#FFF;
+        font-family:Tahoma; 
+        margin:0 auto; 
+        font-size:12px
+    }
+    
+ul{}
+li{margin:0;padding:0;}
+img{border:0;}
+dl,dt,dd,span{margin:0;padding:0;display:block;}
+a,a:focus{text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());}
+a:hover{color:#00a4ac;text-decoration:none;}
+table{border-collapse:collapse;border-spacing: 0;}
+cite{font-style:normal;}
+h2{font-weight:normal;}
+::-moz-selection{color:#fff;color:rgba(255,255,255,0.85);background:#03a8b1;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+h2{font-size:12px}
+/*clearboth*/
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clearfix .clear{_height:0px;}
+/*gotop*/
+.cbbfixed {
+    position: fixed;
+    right: 10px;
+    transition: bottom cubic-bezier(0.24, 0.04, 0, 1.07) .3s;
+    bottom: -85px;z-index: 3;cursor:pointer;
+}
+.cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #686b6e;}
+.cbbfixed .gotop {transition: background-color ease .3s;margin-top: 1px;}
+.cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url(../images/side-icon02.png);}
+.cbbfixed .gotop:hover {background-color:#2c2d2e;}
+.cbbfixed .weixin {background: #dadbdd;}
+.cbbfixed .weixin div {background: url(../images/weixin.png);width: 150px;height: 180px;position: absolute;left: -166px;top: -120px;opacity: 0;transform: scale(0);    -webkit-transform: scale(0);transform-origin: 100% 70%;-webkit-transform-origin: 100% 70%;transition: transform ease .3s,opacity ease .3s;-webkit-transition: all ease .3s;display:none\0;*display:none;}
+.cbbfixed .weixin:hover div {display: block;transform: scale(1);-webkit-transform: scale(1);opacity: 1;*display:block;}
+.cbbfixed .weixin .weixin-icon{float: left;margin:12px 0 0 11px;width:18px;height: 18px; background: url(../images/side-icon01.png);}
+
